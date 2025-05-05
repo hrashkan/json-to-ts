@@ -1,11 +1,14 @@
 {
-  "name": "json-to-ts",
+  "name": "@hrashkan/json-to-ts",
   "version": "1.0.0",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "description": "CLI to generate TypeScript definitions from JSON (interfaces/types/both)",
+  "author": "Ashkan hooshidarashkan@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hrashkan/json-to-ts.git"
+  },
+  "homepage": "https://github.com/hrashkan/json-to-ts#readme",
   "bin": {
     "json-to-ts": "dist/cli.js"
   },
